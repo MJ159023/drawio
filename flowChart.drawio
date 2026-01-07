@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="EuIy-b5hsQu1yDdmuPJy" name="Page-1">
-        <mxGraphModel dx="834" dy="1416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="580" dy="1320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -89,11 +89,14 @@
                 <mxCell id="23" value="load [sp, 8] into lr&lt;div&gt;sp = sp + 12&lt;/div&gt;&lt;div&gt;bx lr&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
                     <mxGeometry x="780" y="245" width="120" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="25" target="28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="25" value="load [sp, 0] into array_index&lt;div&gt;load [sp, 4] into mode_and_scope&lt;/div&gt;&lt;div&gt;load array&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
                     <mxGeometry x="520" y="420" width="120" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="bitwise and mode_and_scope with 1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="520" y="520" width="120" height="60" as="geometry"/>
+                <mxCell id="28" value="bitwise and mode_and_scope with 1 and save result r10&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;compare r10 with 0&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="520" width="120" height="90" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
