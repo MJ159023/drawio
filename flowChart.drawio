@@ -98,6 +98,9 @@
                 <mxCell id="28" value="bitwise and mode_and_scope with 1 and save result r10&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;compare r10 with 0&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
                     <mxGeometry x="520" y="520" width="120" height="90" as="geometry"/>
                 </mxCell>
+                <mxCell id="30" value="IF compare&amp;nbsp;&lt;div&gt;result is 0&lt;/div&gt;&lt;div&gt;branch to&amp;nbsp;&lt;/div&gt;&lt;div&gt;even_case&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="650" width="120" height="120" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
