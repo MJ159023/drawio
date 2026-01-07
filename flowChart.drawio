@@ -78,8 +78,19 @@
                 <mxCell id="22" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
                     <mxGeometry x="630" y="170" width="50" height="30" as="geometry"/>
                 </mxCell>
+                <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="23" target="25">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="840" y="400"/>
+                            <mxPoint x="580" y="400"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="23" value="load [sp, 8] into lr&lt;div&gt;sp = sp + 12&lt;/div&gt;&lt;div&gt;bx lr&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
                     <mxGeometry x="780" y="245" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="load [sp, 0] into array_index&lt;div&gt;load [sp, 4] into mode_and_scope&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="420" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
